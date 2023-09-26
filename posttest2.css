@@ -1,0 +1,152 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #905a3a;
+    background-size: cover;
+    background-position: center;
+}
+.header .judul{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.header .about ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap:30px;
+    margin: -20px 30px;
+    font-size: 20px;
+}
+.about ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+    background: url(https://p4.wallpaperbetter.com/wallpaper/101/895/740/painting-4k-computer-wallpaper-preview.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.home h1{
+    padding: 35px;
+    font-size: 35px;
+}
+
+.lukisan{
+    width: 100%;
+    height: 100%;
+    background-color: #E4D1B9;
+    position: relative;
+}
+.card-header{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.lukisan .card{
+    background-color: #BE8C63;
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    flex-wrap: wrap;    
+}
+.lukisan .card img{
+    align-items: center;
+    width: 100%;
+}
+.lukisan .card p{
+    display: flex;
+    padding: 5%;
+}
+
+
+.profil {
+    width: 100%;
+    height: 500px;
+    background-color: #E4D1B9;
+}
+.card-border{
+    display: flex;
+    margin: 10px auto;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.profil .card2{
+    background-color: #BE8C63;
+    display: flex;
+    width: 1000px;
+    height: 450px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 5px black;    
+}
+.profil .card2 img{
+    margin: 15px;
+}
+.profil .card2 h3{
+    margin: 30px;
+}
+
+
+
+.aboutme {
+    width: 100%;
+    height: 500px;
+    background-color: #E4D1B9;
+}
+.card-border2{
+    display: flex;
+    margin: 10px auto;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.aboutme .card3{
+    background-color: #BE8C63;
+    display: flex;
+    width: 1000px;
+    height: 450px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 5px black;    
+}
+.aboutme .card3 img{
+    margin: 15px;
+}
+.aboutme .card3 p{
+    margin: 50px;
+    font-size: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #411910;
+    text-align: center;
+}
+.socialMedia{
+    padding: 20px;
+}
+.socialMedia a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
